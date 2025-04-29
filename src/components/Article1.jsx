@@ -1,7 +1,7 @@
 import './common.css';
 import blogImage from '../images/blog-image-1.jpg';
 
-export default function Article(){
+export default function Article1(){
     
     return (
     <article>
