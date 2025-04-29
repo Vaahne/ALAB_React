@@ -1,0 +1,44 @@
+html{
+    border-left: 5px;
+    color: lightgray;
+}
+body{
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header,main,footer{
+    padding: 1rem 2rem;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: tomato;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.headerUl >li> a{
+    color: lightgray;
+}
+.footerUl >li> a{
+    color:tomato;
+}
+p::first-letter{
+    color: lightgray;
+}
+.continues{
+    float: right;
+    color: tomato;
+    font-weight: bolder;
+    text-decoration: none;
+    align-self: flex-end;
+}
