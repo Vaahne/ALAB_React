@@ -1,9 +1,9 @@
-import './App.css'
-import Article from './components/Article'
+// import './App.css'
+import './components/common.css';
 import Footer from './components/Footer'
 import Header from './components/Header'
 import HeaderNav from './components/HeaderNav'
-import FooterNav from './components/FooterNav'
+import Main from './components/Main'
 
 function App() {
 
@@ -11,8 +11,7 @@ function App() {
     <>
       <Header/>
       <HeaderNav/>
-      <Article/>
-      <Article/>
+      <Main/>
       <Footer/>
     </>
   )

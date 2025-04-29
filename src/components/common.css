@@ -2,7 +2,7 @@ html{
     border-left: 5px;
     color: lightgray;
 }
-body{
+#root{
     min-height: 100vh;
     font-family: sans-serif;
     max-width: 1000px;

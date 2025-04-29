@@ -1,8 +1,8 @@
 import './common.css';
-import nav from '../utilities/data.mjs';
+import data from '../utilities/data.mjs';
 
 export default function HeaderNav(){
-    let headerData = nav.header.map((el)=>{
+    let headerData = data.nav.header.map((el)=>{
         return <li><a>{el}</a></li>;
     });
 
