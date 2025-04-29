@@ -12,8 +12,6 @@ header,main,footer{
     padding: 1rem 2rem;
 }
 article{
-    display: flex;
-    flex-direction: column;
     margin-bottom: 4rem;
     border-bottom: 1px solid lightgray;
     padding-bottom: 2rem;
@@ -29,15 +27,15 @@ ul{
     display: flex;
     justify-content: space-between;
 }
-.headerUl >li> a{
+.headerUl>li>a{
     color: lightgray;
 }
-.footerUl >li> a{
+.footerUl>li>a{
     color:tomato;
 }
 article p::first-letter{
     color: lightgray;
-    font-size: 400;
+    font-size: 24px;
     float: left;
 }
 .continues{
@@ -46,4 +44,7 @@ article p::first-letter{
     font-weight: bolder;
     text-decoration: none;
     align-self: flex-end;
+}
+#copyRight{
+    float:left;
 }
